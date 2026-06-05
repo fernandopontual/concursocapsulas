@@ -1,0 +1,3218 @@
+{
+  "capsulas": [
+    {
+      "id": 1,
+      "titulo": "Direito Constitucional",
+      "descricao": "Princípios fundamentais em 5 minutos.",
+      "badge": "🎯 Hoje"
+    },
+    {
+      "id": 2,
+      "titulo": "Raciocínio Lógico",
+      "descricao": "Sequências e padrões – exercício rápido.",
+      "badge": "🧠 Treino"
+    },
+    {
+      "id": 3,
+      "titulo": "Português",
+      "descricao": "Crase: dicas sem decoreba.",
+      "badge": "📖 Gramática"
+    }
+  ],
+  "cursos": [
+    {
+      "id": 2,
+      "titulo": "Administração Pública para concursos",
+      "categoria": "Concursos",
+      "carga": "20",
+      "aulas": 40,
+      "alunos": 30,
+      "descricao": "Curso preparatório para concursos das bancas FGV, FCC, CEBRASPE",
+      "preco": "49",
+      "link": "https://concursocapsulas.coursify.me/courses/excel-para-analise-de-dados-basico-1"
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "INSS anuncia novo concurso",
+      "data": "15/12/2025",
+      "categoria": "Concursos",
+      "fonte": "Ministério",
+      "resumo": "Edital previsto para 2026.",
+      "link": "#"
+    }
+  ],
+  "questoes": [
+    {
+      "id": 1,
+      "materia": "Direito Constitucional",
+      "texto": "De acordo com a Constituição Federal de 1988, são fundamentos da República Federativa do Brasil, EXCETO: o direito de propriedade.",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "explicacao": "O direito de propriedade é um direito fundamental individual, mas NÃO é um fundamento da República (art. 1º da CF)."
+    },
+    {
+      "id": 2,
+      "materia": "Raciocínio Lógico",
+      "texto": "Complete a sequência: 2, 6, 12, 20, __",
+      "opcoes": [
+        "28",
+        "30",
+        "32",
+        "36"
+      ],
+      "correta": 1,
+      "explicacao": "Padrão: +4, +6, +8, +10. 20 + 10 = 30."
+    },
+    {
+      "id": 3,
+      "materia": "Português",
+      "texto": "Assinale a opção em que o uso da crase está CORRETO:",
+      "opcoes": [
+        "Fui à escola e à tarde voltei.",
+        "Ele fez referência a àquela situação.",
+        "Vou à pé para o trabalho.",
+        "Chegamos à noite e fomos à um restaurante."
+      ],
+      "correta": 0,
+      "explicacao": "'à escola' (crase obrigatória) e 'à tarde' (locução feminina)."
+    },
+    {
+      "id": 4,
+      "materia": "Direito Constitucional",
+      "texto": "O direito de propriedade NÃO é um fundamento da República Federativa do Brasil.",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "O direito de propriedade é um direito fundamental individual, mas não é fundamento da República (art. 1º da CF)."
+    },
+    {
+      "id": 5,
+      "materia": "Raciocínio Lógico",
+      "texto": "Complete a sequência: 2, 6, 12, 20, __",
+      "opcoes": [
+        "28",
+        "30",
+        "32",
+        "36"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Padrão: +4, +6, +8, +10. 20 + 10 = 30."
+    },
+    {
+      "id": 6,
+      "materia": "Português",
+      "texto": "Assinale a opção em que o uso da crase está CORRETO:",
+      "opcoes": [
+        "Fui à escola e à tarde voltei.",
+        "Ele fez referência a àquela situação.",
+        "Vou à pé para o trabalho.",
+        "Chegamos à noite e fomos à um restaurante."
+      ],
+      "correta": 0,
+      "tipo": "multipla",
+      "explicacao": "'à escola' (crase obrigatória) e 'à tarde' (locução feminina)."
+    },
+    {
+      "id": 7,
+      "materia": "Direito Constitucional",
+      "texto": "São objetivos fundamentais da República Federativa do Brasil, segundo a CF/88.",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Art. 3º da CF: construir sociedade livre, justa e solidária; garantir desenvolvimento; erradicar pobreza; reduzir desigualdades; promover bem de todos."
+    },
+    {
+      "id": 8,
+      "materia": "Administração Pública",
+      "texto": "O princípio da eficiência na Administração Pública foi introduzido por qual emenda constitucional?",
+      "opcoes": [
+        "Emenda 19/98",
+        "Emenda 45/2004",
+        "Emenda 72/2013",
+        "Emenda 103/2019"
+      ],
+      "correta": 0,
+      "tipo": "multipla",
+      "explicacao": "A Emenda Constitucional nº 19, de 1998, introduziu o princípio da eficiência no caput do art. 37 da CF/88."
+    },
+    {
+      "id": 9,
+      "materia": "Direito Administrativo",
+      "texto": "O exercício do poder de polícia pelo Estado pode ocorrer pela edição de atos normativos e pela criação de atos concretos.",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "O poder de polícia se manifesta tanto por atos normativos (gerais) quanto por atos concretos (individuais)."
+    },
+    {
+      "id": 10,
+      "materia": "Controle Externo",
+      "texto": "Os tribunais de contas do Brasil podem confirmar a licitude de ato administrativo e invalidá-lo por vício de legalidade.",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Os Tribunais de Contas exercem controle de legalidade dos atos administrativos."
+    },
+    {
+      "id": 11,
+      "materia": "Gestão Pública",
+      "texto": "O comportamento interpessoal em organizações complexas gera, inevitavelmente, diferenças de poder.",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "As relações interpessoais em organizações complexas naturalmente geram dinâmicas de poder."
+    },
+    {
+      "id": 12,
+      "materia": "Informática",
+      "texto": "No menu de segurança do Windows 10, é possível visualizar a que rede o computador está conectado por meio da opção Firewall e proteção de rede.",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "No Windows 10, o Firewall e proteção de rede mostra o status da conexão de rede ativa."
+    },
+    {
+      "id": 13,
+      "materia": "Auditoria",
+      "texto": "A recomendação formulada pelo auditor deve ser construtiva, prática e detalhada, de modo a evitar dúvidas sobre como a situação deve ser corrigida.",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "As recomendações de auditoria devem ser claras, objetivas e acionáveis."
+    },
+    {
+      "id": 14,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 1: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 1. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 15,
+      "materia": "Português",
+      "texto": "Questão automática 2: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 2. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 16,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 3: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 3. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 17,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 4: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 4. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 18,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 5: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 5. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 19,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 6: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 6. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 20,
+      "materia": "Informática",
+      "texto": "Questão automática 7: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 7. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 21,
+      "materia": "Auditoria",
+      "texto": "Questão automática 8: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 8. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 22,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 9: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 9. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 23,
+      "materia": "História RN",
+      "texto": "Questão automática 10: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 10. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 24,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 11: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 11. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 25,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 12: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 12. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 26,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 13: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 13. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 27,
+      "materia": "Português",
+      "texto": "Questão automática 14: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 14. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 28,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 15: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 15. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 29,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 16: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 16. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 30,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 17: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 17. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 31,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 18: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 18. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 32,
+      "materia": "Informática",
+      "texto": "Questão automática 19: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 19. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 33,
+      "materia": "Auditoria",
+      "texto": "Questão automática 20: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 20. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 34,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 21: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 21. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 35,
+      "materia": "História RN",
+      "texto": "Questão automática 22: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 22. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 36,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 23: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 23. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 37,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 24: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 24. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 38,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 25: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 25. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 39,
+      "materia": "Português",
+      "texto": "Questão automática 26: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 26. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 40,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 27: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 27. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 41,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 28: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 28. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 42,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 29: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 29. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 43,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 30: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 30. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 44,
+      "materia": "Informática",
+      "texto": "Questão automática 31: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 31. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 45,
+      "materia": "Auditoria",
+      "texto": "Questão automática 32: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 32. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 46,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 33: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 33. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 47,
+      "materia": "História RN",
+      "texto": "Questão automática 34: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 34. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 48,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 35: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 35. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 49,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 36: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 36. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 50,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 37: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 37. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 51,
+      "materia": "Português",
+      "texto": "Questão automática 38: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 38. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 52,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 39: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 39. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 53,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 40: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 40. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 54,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 41: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 41. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 55,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 42: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 42. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 56,
+      "materia": "Informática",
+      "texto": "Questão automática 43: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 43. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 57,
+      "materia": "Auditoria",
+      "texto": "Questão automática 44: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 44. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 58,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 45: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 45. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 59,
+      "materia": "História RN",
+      "texto": "Questão automática 46: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 46. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 60,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 47: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 47. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 61,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 48: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 48. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 62,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 49: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 49. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 63,
+      "materia": "Português",
+      "texto": "Questão automática 50: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 50. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 64,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 51: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 51. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 65,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 52: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 52. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 66,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 53: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 53. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 67,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 54: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 54. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 68,
+      "materia": "Informática",
+      "texto": "Questão automática 55: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 55. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 69,
+      "materia": "Auditoria",
+      "texto": "Questão automática 56: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 56. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 70,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 57: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 57. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 71,
+      "materia": "História RN",
+      "texto": "Questão automática 58: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 58. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 72,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 59: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 59. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 73,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 60: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 60. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 74,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 61: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 61. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 75,
+      "materia": "Português",
+      "texto": "Questão automática 62: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 62. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 76,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 63: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 63. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 77,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 64: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 64. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 78,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 65: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 65. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 79,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 66: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 66. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 80,
+      "materia": "Informática",
+      "texto": "Questão automática 67: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 67. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 81,
+      "materia": "Auditoria",
+      "texto": "Questão automática 68: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 68. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 82,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 69: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 69. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 83,
+      "materia": "História RN",
+      "texto": "Questão automática 70: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 70. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 84,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 71: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 71. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 85,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 72: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 72. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 86,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 73: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 73. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 87,
+      "materia": "Português",
+      "texto": "Questão automática 74: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 74. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 88,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 75: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 75. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 89,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 76: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 76. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 90,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 77: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 77. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 91,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 78: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 78. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 92,
+      "materia": "Informática",
+      "texto": "Questão automática 79: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 79. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 93,
+      "materia": "Auditoria",
+      "texto": "Questão automática 80: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 80. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 94,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 81: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 81. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 95,
+      "materia": "História RN",
+      "texto": "Questão automática 82: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 82. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 96,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 83: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 83. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 97,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 84: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 84. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 98,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 85: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 85. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 99,
+      "materia": "Português",
+      "texto": "Questão automática 86: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 86. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 100,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 87: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 87. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 101,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 88: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 88. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 102,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 89: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 89. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 103,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 90: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 90. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 104,
+      "materia": "Informática",
+      "texto": "Questão automática 91: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 91. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 105,
+      "materia": "Auditoria",
+      "texto": "Questão automática 92: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 92. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 106,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 93: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 93. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 107,
+      "materia": "História RN",
+      "texto": "Questão automática 94: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 94. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 108,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 95: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 95. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 109,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 96: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 96. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 110,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 97: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 97. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 111,
+      "materia": "Português",
+      "texto": "Questão automática 98: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 98. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 112,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 99: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 99. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 113,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 100: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 100. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 114,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 101: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 101. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 115,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 102: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 102. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 116,
+      "materia": "Informática",
+      "texto": "Questão automática 103: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 103. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 117,
+      "materia": "Auditoria",
+      "texto": "Questão automática 104: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 104. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 118,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 105: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 105. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 119,
+      "materia": "História RN",
+      "texto": "Questão automática 106: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 106. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 120,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 107: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 107. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 121,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 108: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 108. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 122,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 109: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 109. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 123,
+      "materia": "Português",
+      "texto": "Questão automática 110: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 110. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 124,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 111: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 111. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 125,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 112: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 112. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 126,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 113: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 113. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 127,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 114: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 114. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 128,
+      "materia": "Informática",
+      "texto": "Questão automática 115: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 115. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 129,
+      "materia": "Auditoria",
+      "texto": "Questão automática 116: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 116. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 130,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 117: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 117. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 131,
+      "materia": "História RN",
+      "texto": "Questão automática 118: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 118. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 132,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 119: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 119. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 133,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 120: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 120. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 134,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 121: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 121. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 135,
+      "materia": "Português",
+      "texto": "Questão automática 122: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 122. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 136,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 123: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 123. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 137,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 124: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 124. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 138,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 125: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 125. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 139,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 126: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 126. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 140,
+      "materia": "Informática",
+      "texto": "Questão automática 127: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 127. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 141,
+      "materia": "Auditoria",
+      "texto": "Questão automática 128: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 128. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 142,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 129: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 129. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 143,
+      "materia": "História RN",
+      "texto": "Questão automática 130: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 130. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 144,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 131: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 131. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 145,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 132: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 132. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 146,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 133: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 133. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 147,
+      "materia": "Português",
+      "texto": "Questão automática 134: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 134. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 148,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 135: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 135. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 149,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 136: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 136. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 150,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 137: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 137. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 151,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 138: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 138. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 152,
+      "materia": "Informática",
+      "texto": "Questão automática 139: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 139. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 153,
+      "materia": "Auditoria",
+      "texto": "Questão automática 140: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 140. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 154,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 141: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 141. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 155,
+      "materia": "História RN",
+      "texto": "Questão automática 142: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 142. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 156,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 143: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 143. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 157,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 144: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 144. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 158,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 145: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 145. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 159,
+      "materia": "Português",
+      "texto": "Questão automática 146: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 146. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 160,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 147: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 147. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 161,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 148: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 148. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 162,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 149: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 149. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 163,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 150: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 150. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 164,
+      "materia": "Informática",
+      "texto": "Questão automática 151: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 151. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 165,
+      "materia": "Auditoria",
+      "texto": "Questão automática 152: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 152. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 166,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 153: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 153. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 167,
+      "materia": "História RN",
+      "texto": "Questão automática 154: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 154. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 168,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 155: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 155. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 169,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 156: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 156. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 170,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 157: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 157. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 171,
+      "materia": "Português",
+      "texto": "Questão automática 158: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 158. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 172,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 159: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 159. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 173,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 160: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 160. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 174,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 161: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 161. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 175,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 162: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 162. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 176,
+      "materia": "Informática",
+      "texto": "Questão automática 163: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 163. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 177,
+      "materia": "Auditoria",
+      "texto": "Questão automática 164: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 164. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 178,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 165: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 165. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 179,
+      "materia": "História RN",
+      "texto": "Questão automática 166: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 166. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 180,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 167: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 167. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 181,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 168: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 168. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 182,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 169: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 169. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 183,
+      "materia": "Português",
+      "texto": "Questão automática 170: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 170. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 184,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 171: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 171. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 185,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 172: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 172. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 186,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 173: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 173. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 187,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 174: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 174. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 188,
+      "materia": "Informática",
+      "texto": "Questão automática 175: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 175. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 189,
+      "materia": "Auditoria",
+      "texto": "Questão automática 176: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 176. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 190,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 177: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 177. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 191,
+      "materia": "História RN",
+      "texto": "Questão automática 178: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 178. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 192,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 179: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 179. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 193,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 180: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 180. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 194,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 181: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 181. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 195,
+      "materia": "Português",
+      "texto": "Questão automática 182: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 182. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 196,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 183: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 183. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 197,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 184: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 184. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 198,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 185: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 185. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 199,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 186: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 186. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 200,
+      "materia": "Informática",
+      "texto": "Questão automática 187: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 187. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 201,
+      "materia": "Auditoria",
+      "texto": "Questão automática 188: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 188. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 202,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 189: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 189. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 203,
+      "materia": "História RN",
+      "texto": "Questão automática 190: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 190. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 204,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 191: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 191. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 205,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 192: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 192. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 206,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 193: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 193. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 207,
+      "materia": "Português",
+      "texto": "Questão automática 194: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 194. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 208,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 195: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 195. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 209,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 196: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 196. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 210,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 197: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 197. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 211,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 198: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 198. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 212,
+      "materia": "Informática",
+      "texto": "Questão automática 199: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 199. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 213,
+      "materia": "Auditoria",
+      "texto": "Questão automática 200: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 200. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 214,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 201: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 201. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 215,
+      "materia": "História RN",
+      "texto": "Questão automática 202: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 202. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 216,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 203: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 203. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 217,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 204: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 204. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 218,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 205: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 205. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 219,
+      "materia": "Português",
+      "texto": "Questão automática 206: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 206. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 220,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 207: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 207. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 221,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 208: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 208. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 222,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 209: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 209. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 223,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 210: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 210. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 224,
+      "materia": "Informática",
+      "texto": "Questão automática 211: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 211. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 225,
+      "materia": "Auditoria",
+      "texto": "Questão automática 212: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 212. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 226,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 213: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 213. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 227,
+      "materia": "História RN",
+      "texto": "Questão automática 214: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 214. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 228,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 215: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 215. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 229,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 216: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 216. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 230,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 217: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 217. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 231,
+      "materia": "Português",
+      "texto": "Questão automática 218: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 218. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 232,
+      "materia": "Administração Pública",
+      "texto": "Questão automática 219: Esta é uma questão de Administração Pública gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 219. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 233,
+      "materia": "Direito Administrativo",
+      "texto": "Questão automática 220: Esta é uma questão de Direito Administrativo gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 220. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 234,
+      "materia": "Controle Externo",
+      "texto": "Questão automática 221: Esta é uma questão de Controle Externo gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 221. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 235,
+      "materia": "Gestão Pública",
+      "texto": "Questão automática 222: Esta é uma questão de Gestão Pública gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 222. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 236,
+      "materia": "Informática",
+      "texto": "Questão automática 223: Esta é uma questão de Informática gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 223. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 237,
+      "materia": "Auditoria",
+      "texto": "Questão automática 224: Esta é uma questão de Auditoria gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 224. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 238,
+      "materia": "Geografia RN",
+      "texto": "Questão automática 225: Esta é uma questão de Geografia RN gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 225. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 239,
+      "materia": "História RN",
+      "texto": "Questão automática 226: Esta é uma questão de História RN gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 226. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 240,
+      "materia": "Orçamento Público",
+      "texto": "Questão automática 227: Esta é uma questão de Orçamento Público gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 3,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 227. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 241,
+      "materia": "Direito Constitucional",
+      "texto": "Questão automática 228: Esta é uma questão de Direito Constitucional gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 228. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 242,
+      "materia": "Raciocínio Lógico",
+      "texto": "Questão automática 229: Esta é uma questão de Raciocínio Lógico gerada automaticamente?",
+      "opcoes": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D"
+      ],
+      "correta": 1,
+      "tipo": "multipla",
+      "explicacao": "Explicação da questão automática 229. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 243,
+      "materia": "Português",
+      "texto": "Questão automática 230: Esta é uma questão de Português gerada automaticamente?",
+      "opcoes": [
+        "Certo",
+        "Errado"
+      ],
+      "correta": 0,
+      "tipo": "certo-errado",
+      "explicacao": "Explicação da questão automática 230. Esta é uma questão de exemplo."
+    },
+    {
+      "id": 244,
+      "materia": "Direito Administrativo",
+      "texto": "No âmbito da secretaria legislativa de uma Câmara Municipal, Carla foi encarregada de organizar processos administrativos internos relacionados à concessão de gratificações a servidores. Durante a análise de um processo específico, identificou que o ato administrativo que concedeu a vantagem financeira apresentava vício quanto à competência da autoridade que o praticou, pois foi assinado por servidor sem delegação formal para tanto.\nDiante da situação, Carla passou a estudar os elementos e atributos dos atos administrativos para verificar a possibilidade de convalidação ou invalidação do ato. Com base na teoria dos atos administrativos, analise as assertivas:\nI.A competência é elemento vinculado do ato administrativo e, em regra, irrenunciável. II.O vício de competência pode ser sanado por convalidação, desde que não se trate de competência exclusiva. III.Todo ato administrativo com vício de competência é nulo e insuscetível de convalidação.\nAnalise as afirmativas abaixo e assinale a alternativa CORRETA. ",
+      "opcoes": [
+        "Apenas I e III estão corretas.",
+        "I, II e III estão corretas.",
+        "Apenas II e III estão corretas ",
+        "Apenas I está correta. ",
+        "Apenas I e II estão corretas."
+      ],
+      "correta": 4,
+      "tipo": "multipla",
+      "explicacao": "em teste"
+    }
+  ],
+  "bancasCustomizadas": [],
+  "materiasCustomizadas": []
+}
