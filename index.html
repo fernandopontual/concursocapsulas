@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Concurso em Cápsulas</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; color: #1e2a3a; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { background: linear-gradient(135deg, #0b3b5f, #1b6b87); color: white; text-align: center; padding: 40px 20px; border-radius: 0 0 20px 20px; }
+        h1 { font-size: 2rem; }
+        .tagline { margin-top: 10px; opacity: 0.9; }
+        .tabs { display: flex; justify-content: center; gap: 10px; margin-top: 20px; flex-wrap: wrap; }
+        .tab-btn { background: rgba(255,255,255,0.2); color: white; padding: 10px 25px; border: none; border-radius: 50px; cursor: pointer; font-size: 1rem; font-weight: bold; transition: 0.3s; }
+        .tab-btn.active { background: white; color: #0b3b5f; }
+        .tab-btn:hover { background: rgba(255,255,255,0.3); transform: translateY(-2px); }
+        .tab-content { display: none; padding: 20px 0; animation: fadeIn 0.3s; }
+        .tab-content.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .card { background: white; border-radius: 15px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border-left: 5px solid #e67e22; transition: transform 0.2s; }
+        .card:hover { transform: translateX(5px); }
+        .badge { background: #e67e22; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; display: inline-block; margin-bottom: 10px; }
+        .opcao-btn { background: #eef2f5; border: none; padding: 8px 16px; border-radius: 25px; cursor: pointer; margin: 5px; transition: 0.2s; }
+        .opcao-btn:hover { background: #d4dfe7; transform: scale(1.02); }
+        .feedback { padding: 15px; border-radius: 10px; margin-top: 15px; font-weight: bold; }
+        .certo { background: #d4edda; color: #155724; }
+        .errado { background: #f8d7da; color: #721c24; }
+        .stats { display: flex; gap: 15px; justify-content: center; margin-bottom: 20px; flex-wrap: wrap; }
+        .stat-card { background: white; padding: 15px; border-radius: 10px; text-align: center; min-width: 120px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .stat-number { font-size: 2rem; font-weight: bold; color: #e67e22; }
+        .filtros { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; align-items: center; }
+        .filtros select, .filtros button { padding: 8px 15px; border-radius: 8px; border: 1px solid #ddd; cursor: pointer; }
+        .gabarito-btn { background: #3498db; color: white; border: none; padding: 5px 15px; border-radius: 8px; cursor: pointer; margin-top: 10px; }
+        .explicacao { display: none; background: #fef9e6; padding: 15px; border-radius: 8px; margin-top: 10px; border-left: 3px solid #f39c12; }
+        .explicacao.mostrar { display: block; }
+        footer { text-align: center; padding: 20px; color: #666; margin-top: 30px; border-top: 1px solid #ddd; }
+        .loading { text-align: center; padding: 40px; color: #666; }
+        .curso-link-btn { background: #e67e22; color: white; border: none; padding: 8px 16px; border-radius: 25px; cursor: pointer; margin-top: 10px; transition: 0.2s; }
+        .curso-link-btn:hover { background: #d35400; transform: scale(1.02); }
+        .noticia-link { color: #e67e22; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 10px; }
+        .noticia-link:hover { text-decoration: underline; }
+        .info-contato { background: #e8f5e9; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center; }
+        @media (max-width: 700px) { .container { padding: 10px; } h1 { font-size: 1.5rem; } .stats { gap: 8px; } .stat-card { min-width: 90px; padding: 8px; } .stat-number { font-size: 1.3rem; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>📦 Concurso em Cápsulas</h1>
+    <div class="tagline">Estude em doses diárias • Questões • Cursos • Notícias</div>
+    <div class="tabs">
+        <button class="tab-btn active" onclick="mudarAba('inicio')">🏠 Início</button>
+        <button class="tab-btn" onclick="mudarAba('cursos')">🎓 Cursos</button>
+        <button class="tab-btn" onclick="mudarAba('noticias')">📰 Notícias</button>
+        <button class="tab-btn" onclick="mudarAba('banco')">📚 Banco de Questões</button>
+        <button class="tab-btn" onclick="mudarAba('contato')">📧 Fale Conosco</button>
+    </div>
+</header>
+
+<div class="container">
+    <!-- INÍCIO -->
+    <div id="inicio" class="tab-content active">
+        <h2 style="text-align:center; margin-bottom:20px;">📌 Cápsulas da Semana</h2>
+        <div id="capsulasGrid" class="loading">Carregando...</div>
+        <div class="card">
+            <h2>🧠 Simulado Rápido</h2>
+            <div id="perguntaSimulado" style="font-size:1.2rem; margin-bottom:15px;"></div>
+            <div id="opcoesSimulado"></div>
+            <div id="feedbackSimulado" class="feedback"></div>
+        </div>
+    </div>
+
+    <!-- CURSOS -->
+    <div id="cursos" class="tab-content">
+        <h2 style="text-align:center; margin-bottom:20px;">🎓 Cursos Disponíveis</h2>
+        <div id="cursosGrid" class="loading">Carregando...</div>
+    </div>
+
+    <!-- NOTÍCIAS -->
+    <div id="noticias" class="tab-content">
+        <h2 style="text-align:center; margin-bottom:20px;">📰 Últimas Notícias</h2>
+        <div id="noticiasGrid" class="loading">Carregando...</div>
+    </div>
+
+    <!-- BANCO DE QUESTÕES -->
+    <div id="banco" class="tab-content">
+        <div class="stats" id="statsQuestoes"></div>
+        <div class="filtros">
+            <select id="filtroMateria"><option value="todas">Todas matérias</option></select>
+            <select id="filtroStatus">
+                <option value="todas">Todas</option>
+                <option value="naoRespondidas">Não respondidas</option>
+                <option value="acertadas">Acertadas</option>
+                <option value="erradas">Erradas</option>
+            </select>
+            <button id="resetarFiltrosBtn">Resetar Filtros</button>
+            <button id="resetarProgressoBtn">Resetar Progresso</button>
+        </div>
+        <div id="questoesList" class="loading">Carregando questões...</div>
+    </div>
+
+    <!-- FALE CONOSCO -->
+    <div id="contato" class="tab-content">
+        <h2 style="text-align:center; margin-bottom:20px;">📧 Fale Conosco</h2>
+        <div class="info-contato">
+            <p>📩 Envie sua dúvida, sugestão ou crítica</p>
+            <p>✉️ Responderemos o mais breve possível</p>
+            <p>📧 E-mail: apublica.capsulas@gmail.com</p>
+        </div>
+        <div class="card">
+            <h3>💬 Envie sua mensagem</h3>
+            <form id="formContatoGmail">
+                <input type="text" id="nomeContato" placeholder="Seu nome" required style="width:100%; padding:12px; margin-bottom:10px; border:1px solid #ddd; border-radius:8px;">
+                <input type="email" id="emailContato" placeholder="Seu e-mail" required style="width:100%; padding:12px; margin-bottom:10px; border:1px solid #ddd; border-radius:8px;">
+                <select id="assuntoContato" required style="width:100%; padding:12px; margin-bottom:10px; border:1px solid #ddd; border-radius:8px;">
+                    <option value="">Selecione o assunto...</option>
+                    <option value="Dúvida sobre questões">❓ Dúvida sobre questões</option>
+                    <option value="Sugestão de curso">💡 Sugestão de curso</option>
+                    <option value="Reportar erro">🐛 Reportar erro</option>
+                    <option value="Parceria">🤝 Parceria</option>
+                    <option value="Outro">📝 Outro</option>
+                </select>
+                <textarea id="mensagemContato" placeholder="Sua mensagem" required style="width:100%; padding:12px; margin-bottom:10px; border:1px solid #ddd; border-radius:8px; min-height:120px;"></textarea>
+                <button type="submit" id="btnEnviar" style="background:#e67e22; color:white; border:none; padding:12px 24px; border-radius:8px; cursor:pointer; font-size:1rem;">📨 Enviar Mensagem</button>
+            </form>
+            <div id="statusMensagem" style="margin-top:15px; text-align:center;"></div>
+        </div>
+    </div>
+
+    <footer>© 2025 Concurso em Cápsulas | Estude com qualidade</footer>
+</div>
+
+<script>
+    // ========== DADOS PADRÃO (CASO NÃO HAJA NADA NO LOCALSTORAGE) ==========
+    const dadosPadrao = {
+        capsulas: [
+            { id: 1, titulo: "Direito Constitucional", descricao: "Princípios fundamentais em 5 minutos.", badge: "🎯 Hoje" },
+            { id: 2, titulo: "Raciocínio Lógico", descricao: "Sequências e padrões – exercício rápido.", badge: "🧠 Treino" },
+            { id: 3, titulo: "Português", descricao: "Crase: dicas sem decoreba.", badge: "📖 Gramática" },
+            { id: 4, titulo: "Administração Pública", descricao: "Governança e governabilidade.", badge: "🏛️ Básico" }
+        ],
+        cursos: [
+            { id: 1, titulo: "Direito Constitucional", categoria: "Preparatório", carga: "60h", descricao: "Curso completo de Direito Constitucional.", preco: "R$ 197", link: "" },
+            { id: 2, titulo: "Raciocínio Lógico", categoria: "Raciocínio", carga: "30h", descricao: "Domine a lógica rapidamente.", preco: "R$ 127", link: "" },
+            { id: 3, titulo: "Português", categoria: "Gramática", carga: "50h", descricao: "Gramática completa para concursos.", preco: "R$ 157", link: "" },
+            { id: 4, titulo: "Como estudar para concursos", categoria: "Gratuito", carga: "10h", descricao: "Técnicas de estudo e planejamento.", preco: "GRÁTIS", link: "" }
+        ],
+        noticias: [
+            { id: 1, titulo: "INSS anuncia novo concurso", data: "15/12/2025", categoria: "Concursos", resumo: "Edital previsto para 2026 com 1000 vagas.", link: "#" },
+            { id: 2, titulo: "STF decide sobre Tribunais de Contas", data: "14/12/2025", categoria: "Jurisprudência", resumo: "Entendimento sobre nomeações em Tribunais de Contas.", link: "#" },
+            { id: 3, titulo: "Dica: organize seus estudos", data: "13/12/2025", categoria: "Dicas", resumo: "Metodologia comprovada para organização dos estudos.", link: "#" }
+        ],
+        questoes: [
+            { id: 1, materia: "Direito Constitucional", banca: "CESPE/CEBRASPE", texto: "O direito de propriedade é um fundamento da República?", opcoes: ["Certo","Errado"], correta: 1, tipo: "certo-errado", explicacao: "Não é fundamento da República." },
+            { id: 2, materia: "Raciocínio Lógico", banca: "FGV", texto: "2, 6, 12, 20, __", opcoes: ["28","30","32","36"], correta: 1, tipo: "multipla", explicacao: "Padrão +4,+6,+8,+10 = 30" },
+            { id: 3, materia: "Português", banca: "CESPE/CEBRASPE", texto: "Crase correta:", opcoes: ["Fui à escola","Vou à pé","Chegamos à noite","Fomos à um restaurante"], correta: 0, tipo: "multipla", explicacao: "'à escola' tem crase obrigatória" }
+        ]
+    };
+
+    // Carregar dados do localStorage ou usar padrão
+    let capsulas = JSON.parse(localStorage.getItem("admin_capsulas")) || dadosPadrao.capsulas;
+    let cursos = JSON.parse(localStorage.getItem("admin_cursos")) || dadosPadrao.cursos;
+    let noticias = JSON.parse(localStorage.getItem("admin_noticias")) || dadosPadrao.noticias;
+    let bancoQuestoes = JSON.parse(localStorage.getItem("admin_questoes")) || dadosPadrao.questoes;
+
+    let progresso = JSON.parse(localStorage.getItem("progressoQuestoes")) || {};
+    let questaoSimuladoAtual = 0;
+    
+    const questoesSimulado = [
+        { texto: "De acordo com a Constituição Federal, são objetivos fundamentais da República Federativa do Brasil, EXCETO:", opcoes: ["Construir uma sociedade livre", "Garantir o desenvolvimento nacional", "Promover o bem de todos", "Instituir governo parlamentarista"], correta: 3 },
+        { texto: "Em uma sequência lógica: 5, 9, 17, 33, __", opcoes: ["49","65","57","61"], correta: 1 },
+        { texto: "Qual a forma correta? 'Vou ____ casa ____ tarde.'", opcoes: ["à / à","a / a","à / a","a / à"], correta: 2 }
+    ];
+
+    function mudarAba(abaId) {
+        document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+        document.getElementById(abaId).classList.add('active');
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        if(event && event.target) event.target.classList.add('active');
+        if(abaId === 'cursos') renderizarCursos();
+        if(abaId === 'noticias') renderizarNoticias();
+        if(abaId === 'banco') { renderizarQuestoes(); calcularStats(); }
+    }
+
+    function renderizarCapsulas() {
+        const grid = document.getElementById("capsulasGrid");
+        if(!grid) return;
+        if(!capsulas.length) { grid.innerHTML = '<div class="card">Nenhuma cápsula cadastrada</div>'; return; }
+        grid.innerHTML = capsulas.map(c => `
+            <div class="card" onclick="alert('📖 ${c.titulo}\\n\\n${c.descricao}')">
+                <div class="badge">${c.badge || '📌'}</div>
+                <h3>${c.titulo}</h3>
+                <p>${c.descricao}</p>
+            </div>
+        `).join('');
+    }
+
+    function renderizarCursos() {
+        const grid = document.getElementById("cursosGrid");
+        if(!grid) return;
+        if(!cursos.length) { grid.innerHTML = '<div class="card">Nenhum curso cadastrado</div>'; return; }
+        grid.innerHTML = cursos.map(c => `
+            <div class="card">
+                <h3>${c.titulo}</h3>
+                <p><strong>${c.categoria}</strong> | ${c.carga || '40h'}</p>
+                <p>${c.descricao}</p>
+                <p><strong>${c.preco}</strong></p>
+                ${c.link ? `<button class="curso-link-btn" onclick="window.open('${c.link}', '_blank')">🔗 Acessar Curso</button>` : `<button class="opcao-btn" onclick="alert('Matrícula em: ${c.titulo}')">📖 Matricular</button>`}
+            </div>
+        `).join('');
+    }
+
+    function renderizarNoticias() {
+        const grid = document.getElementById("noticiasGrid");
+        if(!grid) return;
+        if(!noticias.length) { grid.innerHTML = '<div class="card">Nenhuma notícia cadastrada</div>'; return; }
+        grid.innerHTML = noticias.map(n => `
+            <div class="card">
+                <small>📅 ${n.data} | 🏷️ ${n.categoria}</small>
+                <h3>${n.titulo}</h3>
+                <p>${n.resumo}</p>
+                <a href="${n.link || '#'}" class="noticia-link" target="_blank">Ler mais →</a>
+            </div>
+        `).join('');
+    }
+
+    function carregarSimulado() {
+        const q = questoesSimulado[questaoSimuladoAtual];
+        document.getElementById("perguntaSimulado").innerText = q.texto;
+        document.getElementById("opcoesSimulado").innerHTML = q.opcoes.map((op, idx) => `<button class="opcao-btn" onclick="responderSimulado(${idx})">${String.fromCharCode(65+idx)} - ${op}</button>`).join('');
+        document.getElementById("feedbackSimulado").innerHTML = "";
+    }
+
+    window.responderSimulado = function(escolhida) {
+        const q = questoesSimulado[questaoSimuladoAtual];
+        const fb = document.getElementById("feedbackSimulado");
+        if(escolhida === q.correta) {
+            fb.innerHTML = "✅ Correto! Excelente!";
+            fb.className = "feedback certo";
+            setTimeout(() => { questaoSimuladoAtual = (questaoSimuladoAtual + 1) % questoesSimulado.length; carregarSimulado(); }, 1500);
+        } else {
+            fb.innerHTML = `❌ Errado. A resposta correta é: ${String.fromCharCode(65+q.correta)}`;
+            fb.className = "feedback errado";
+        }
+    };
+
+    function calcularStats() {
+        if(!bancoQuestoes || bancoQuestoes.length === 0) return;
+        const total = bancoQuestoes.length;
+        const respondidas = Object.values(progresso).filter(p => p?.respondida).length;
+        const acertadas = Object.values(progresso).filter(p => p?.acertou).length;
+        const taxa = respondidas > 0 ? Math.round((acertadas / respondidas) * 100) : 0;
+        const materiasUnicas = [...new Set(bancoQuestoes.map(q => q.materia))];
+        
+        document.getElementById("statsQuestoes").innerHTML = `
+            <div class="stat-card"><div class="stat-number">${total}</div><div>Total Questões</div></div>
+            <div class="stat-card"><div class="stat-number">${materiasUnicas.length}</div><div>Matérias</div></div>
+            <div class="stat-card"><div class="stat-number">${taxa}%</div><div>Taxa de Acertos</div></div>
+        `;
+        
+        const select = document.getElementById("filtroMateria");
+        if(select) select.innerHTML = '<option value="todas">Todas matérias</option>' + materiasUnicas.map(m => `<option value="${m}">${m}</option>`).join('');
+    }
+
+    function renderizarQuestoes() {
+        if(!bancoQuestoes || bancoQuestoes.length === 0) {
+            document.getElementById("questoesList").innerHTML = '<div class="card">Nenhuma questão cadastrada. Use o admin.html para adicionar.</div>';
+            return;
+        }
+        
+        const filtroMateria = document.getElementById("filtroMateria")?.value || "todas";
+        const filtroStatus = document.getElementById("filtroStatus")?.value || "todas";
+        
+        let filtradas = bancoQuestoes.filter(q => {
+            if(filtroMateria !== "todas" && q.materia !== filtroMateria) return false;
+            const status = progresso[q.id];
+            if(filtroStatus === "naoRespondidas" && status?.respondida) return false;
+            if(filtroStatus === "acertadas" && (!status?.respondida || !status.acertou)) return false;
+            if(filtroStatus === "erradas" && (!status?.respondida || status.acertou)) return false;
+            return true;
+        });
+        
+        const container = document.getElementById("questoesList");
+        if(filtradas.length === 0) { container.innerHTML = "<p style='text-align:center; padding:20px;'>Nenhuma questão encontrada.</p>"; return; }
+        
+        container.innerHTML = filtradas.map(q => {
+            const status = progresso[q.id];
+            const icon = status?.respondida ? (status.acertou ? "✅ " : "❌ ") : "";
+            return `
+                <div class="card">
+                    <span class="badge" style="background:#0b3b5f">${q.materia} ${q.banca ? `| ${q.banca}` : ''}</span>
+                    <div style="margin-top:10px"><strong>${icon}${q.texto}</strong></div>
+                    <div>${q.opcoes.map((op, idx) => `<button class="opcao-btn" onclick="responderQuestao(${q.id}, ${idx})">${String.fromCharCode(65+idx)} - ${op}</button>`).join('')}</div>
+                    <button class="gabarito-btn" onclick="mostrarGabarito(${q.id})">📖 Ver gabarito</button>
+                    <div class="explicacao" id="explicacao-${q.id}"><strong>Gabarito:</strong> ${q.tipo === 'certo-errado' ? (q.correta === 0 ? 'Certo' : 'Errado') : String.fromCharCode(65+q.correta)}<br><strong>Explicação:</strong> ${q.explicacao}</div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    window.responderQuestao = function(id, escolhida) {
+        const q = bancoQuestoes.find(q => q.id === id);
+        if(!q) return;
+        const acertou = (escolhida === q.correta);
+        progresso[id] = { respondida: true, acertou: acertou };
+        localStorage.setItem("progressoQuestoes", JSON.stringify(progresso));
+        renderizarQuestoes();
+        calcularStats();
+    };
+
+    window.mostrarGabarito = function(id) {
+        const div = document.getElementById(`explicacao-${id}`);
+        if(div) div.classList.toggle("mostrar");
+    };
+
+    document.getElementById("resetarFiltrosBtn")?.addEventListener("click", () => {
+        document.getElementById("filtroMateria").value = "todas";
+        document.getElementById("filtroStatus").value = "todas";
+        renderizarQuestoes();
+    });
+    
+    document.getElementById("resetarProgressoBtn")?.addEventListener("click", () => {
+        if(confirm("Resetar todo seu progresso? Esta ação não pode ser desfeita.")) {
+            progresso = {};
+            localStorage.setItem("progressoQuestoes", JSON.stringify(progresso));
+            renderizarQuestoes();
+            calcularStats();
+            alert("Progresso resetado com sucesso!");
+        }
+    });
+    
+    document.getElementById("filtroMateria")?.addEventListener("change", renderizarQuestoes);
+    document.getElementById("filtroStatus")?.addEventListener("change", renderizarQuestoes);
+
+    // ========== ENVIO DE E-MAIL VIA GOOGLE APPS SCRIPT ==========
+    // ATENÇÃO: Você precisa criar um Google Apps Script e substituir a URL abaixo!
+    // URL DO APPS SCRIPT - COLE A URL QUE VOCÊ CRIOU NO Google Apps Script
+    const URL_APPS_SCRIPT = "https://script.google.com/macros/s/AKfycby4l5hbJYy8ZmntuqtQuNrU8Ii1WJna7ryUOFUlH1-N5HeLANINbRFr5BWfo-lnHVMKLw/exec"; 
+    
+    const formContato = document.getElementById("formContatoGmail");
+    if (formContato) {
+        formContato.addEventListener("submit", async function(e) {
+            e.preventDefault();
+            
+            const btn = document.getElementById("btnEnviar");
+            const statusDiv = document.getElementById("statusMensagem");
+            
+            btn.disabled = true;
+            btn.textContent = "📨 Enviando...";
+            statusDiv.innerHTML = "";
+            
+            const dados = {
+                nome: document.getElementById("nomeContato").value,
+                email: document.getElementById("emailContato").value,
+                assunto: document.getElementById("assuntoContato").value,
+                mensagem: document.getElementById("mensagemContato").value
+            };
+            
+            try {
+                await fetch(URL_APPS_SCRIPT, {
+                    method: "POST",
+                    mode: "no-cors",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(dados)
+                });
+                
+                statusDiv.innerHTML = '<div style="background:#d4edda; color:#155724; padding:15px; border-radius:8px;">✅ Mensagem enviada com sucesso! Responderemos em breve.</div>';
+                document.getElementById("formContatoGmail").reset();
+                
+            } catch(erro) {
+                statusDiv.innerHTML = '<div style="background:#f8d7da; color:#721c24; padding:15px; border-radius:8px;">❌ Erro ao enviar. Tente novamente ou envie direto para apublica.capsulas@gmail.com</div>';
+            }
+            
+            btn.disabled = false;
+            btn.textContent = "📨 Enviar Mensagem";
+            setTimeout(() => { statusDiv.innerHTML = ""; }, 5000);
+        });
+    }
+
+    // Inicializar
+    renderizarCapsulas();
+    renderizarCursos();
+    renderizarNoticias();
+    carregarSimulado();
+    renderizarQuestoes();
+    calcularStats();
+</script>
+</body>
+</html>
